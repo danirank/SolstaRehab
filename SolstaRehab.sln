@@ -5,9 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solstaRehabWeb", "solstaRehabWeb", "{6F1F7715-0D1B-6627-E307-F7020E6B6E41}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolstaRehabWeb", "SolstaRehabWeb", "{6F1F7715-0D1B-6627-E307-F7020E6B6E41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolstaRehabWeb", "src\solstaRehabWeb\SolstaRehabWeb.csproj", "{28DA1367-2E06-4BDC-A7CB-F658F55E6A7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolstaRehabWeb", "src\SolstaRehabWeb\SolstaRehabWeb.csproj", "{28DA1367-2E06-4BDC-A7CB-F658F55E6A7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,5 +38,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6F1F7715-0D1B-6627-E307-F7020E6B6E41} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{28DA1367-2E06-4BDC-A7CB-F658F55E6A7F} = {6F1F7715-0D1B-6627-E307-F7020E6B6E41}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05613C82-AB4F-408D-BB6F-9E4E290788BB}
 	EndGlobalSection
 EndGlobal

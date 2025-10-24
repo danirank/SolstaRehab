@@ -1,6 +1,6 @@
-using solstaRehabWeb.Components;
 
-namespace solstaRehabWeb;
+
+namespace SolstaRehabWeb.Components;
 
 public class Program
 {
