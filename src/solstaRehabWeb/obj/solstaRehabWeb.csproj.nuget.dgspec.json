@@ -11,7 +11,7 @@
         "projectName": "SolstaRehabWeb",
         "projectPath": "C:\\Users\\danie\\.NetJourney\\SolstaRehab\\src\\SolstaRehabWeb\\SolstaRehabWeb.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\.NetJourney\\SolstaRehab\\src\\solstaRehabWeb\\obj\\",
+        "outputPath": "C:\\Users\\danie\\.NetJourney\\SolstaRehab\\src\\SolstaRehabWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
