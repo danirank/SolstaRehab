@@ -1,18 +1,25 @@
 ﻿<nav class="nav-container">
+    <!-- Checkboxen används som toggle -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+    <!-- Label = hamburgarikonen -->
+    <label for="menu-toggle" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <!-- Själva menyn -->
     <ul class="nav-menu">
         <li><NavLink href="/" Match="NavLinkMatch.All" class="nav-link">Start</NavLink></li>
         <li><NavLink href="#about" class="nav-link">Om oss</NavLink></li>
-
-        <!-- Dropdown-exempel -->
         <li class="dropdown">
             <a class="nav-link" href="#services">Tjänster ▾</a>
             <ul class="dropdown-menu">
-                <li><a href="#training">Träning</a></li>
                 <li><a href="#rehab">Rehab</a></li>
-                <li><a href="#nutrition">Kost</a></li>
+                <li><a href="#training">Träning</a></li>
             </ul>
         </li>
-
         <li><NavLink href="#contact" class="nav-link">Kontakt</NavLink></li>
     </ul>
 </nav>

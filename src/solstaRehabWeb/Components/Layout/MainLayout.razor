@@ -1,29 +1,18 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="app-shell">
-<header class="header">
-
-    <!-- Bakgrundsvideo -->
-    <video autoplay muted loop playsinline class="header_video">
-        <source src="videos/header.mp4" type="video/mp4" />
-    </video>
-
-    
-    <div class="header_overlay_info">
-        <h1>Solsta Rehab</h1>
-        <p>Rörelse • Styrka • Balans</p>
-    </div>
+    <header class="header">
+        <div class="header_left">
+            <h1>Solsta Rehab</h1>
+            <p>Rörelse • Styrka • Balans</p>
+        </div>
+        <NavMenu />
 
 
-
-   
-    <NavMenu/>
-
-  
-    
-       
-    
-</header>
+        <div class="header_right">
+            
+        </div>
+    </header>
 
 <main class="page">
     @Body
