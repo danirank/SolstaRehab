@@ -1,0 +1,15 @@
+﻿
+<a href="@Url"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="btn-link">
+    @ButtonText
+</a>
+
+@code {
+    [Parameter]
+    public string Url { get; set; } =
+        "https://www.1177.se/hitta-vard/kontaktkort/Fysioterapimottagningen-Solsta-Rehab/";
+
+    [Parameter] public string ButtonText { get; set; } = "Boka via 1177.se";
+}

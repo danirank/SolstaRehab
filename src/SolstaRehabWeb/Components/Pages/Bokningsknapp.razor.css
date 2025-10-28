@@ -1,0 +1,17 @@
+﻿
+/* Knapp-styling (återanvändbar) */
+.btn-link {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #004b4f;
+    padding: 0.9rem 1.8rem;
+    border-radius: 250px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+    .btn-link:hover {
+        background-color: #ffd633;
+        transform: translateY(-2px);
+    }
